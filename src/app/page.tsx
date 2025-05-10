@@ -1,3 +1,4 @@
+/*
 import Image from "next/image";
 
 export default function Home() {
@@ -100,4 +101,15 @@ export default function Home() {
       </footer>
     </div>
   );
+}
+*/
+import { LoginButtons } from "@/components/LoginButtons";
+
+export default function Home() {
+    return (
+        <main className="flex flex-col items-center justify-center min-h-screen">
+            <h1 className="text-2xl mb-4">Connexion</h1>
+            <LoginButtons/>
+        </main>
+    );
 }
